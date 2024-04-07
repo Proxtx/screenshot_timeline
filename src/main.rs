@@ -1,3 +1,5 @@
+#![windows_subsystem = "windows"]
+
 use std::time::{Duration, SystemTime, UNIX_EPOCH};
 use std::{env, thread};
 use xcap::Monitor;
